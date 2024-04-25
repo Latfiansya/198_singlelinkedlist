@@ -98,3 +98,25 @@ bool listEmpety()
 	else
 		return false;
 }
+
+void traverse()
+{
+	if (listEmpety())
+	{
+		cout << "List Kosong" << endl;
+		system("pause");
+		system("cls");
+		return;	
+	}
+
+	else
+	{
+		Node* currentNode = START;
+		while (currentNode != NULL)
+		{
+			cout << "NIM: " << currentNode->noMhs << ", Nama: " << currentNode->name << endl;
+			currentNode = currentNode->next;
+		}
+	}
+}
+
