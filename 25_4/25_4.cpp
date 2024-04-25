@@ -90,3 +90,11 @@ bool deleteNode(int nim)
 		START = current->next;
 	return true;
 }
+
+bool listEmpety() 
+{
+	if (START == NULL)
+		return true;
+	else
+		return false;
+}
