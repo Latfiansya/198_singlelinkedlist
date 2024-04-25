@@ -149,4 +149,15 @@ void searchData() {
 int main()
 {
 	int pilihan;
-};
+	do
+	{
+		try
+		{
+			
+		}
+		catch (exception e)
+		{
+			cout << "Terjadi kesalahan" << endl;
+		}
+	} while (pilihan != 5);
+}
